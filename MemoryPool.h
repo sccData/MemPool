@@ -7,6 +7,7 @@ private:
 	const size_t ALIGN = 8;
 	const size_t MAXBYTES = 128;
 	const size_t NFREELISTS = MAXBYTES / CALIGN;
+	const size_t NNODES = 20;
 
 private:
 	static size_t ROUND_UP(size_t bytes) {
